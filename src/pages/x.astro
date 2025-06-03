@@ -1,0 +1,316 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>VD Smart Marketing</title>
+	</head>
+	<body>
+    <div>
+      <h1 id="header-title"> <img src="/logo.png" alt="logo" id="logo">VD Smart Marketing</h1>
+      <div id="hero">
+        <h1>VD Smart Marketing</h1>
+        <h2>In collaboration with deep builders and construction</h2>
+      </div>
+      <section>
+        {/* <div id="divider"></div> */}
+        <div class="para">
+          <div id="t1">More than 200 families trust us!</div>
+          <ul id="list1">
+            <li>
+              <img src="tick-inside-circle.png" alt="tick" class="listtick" width="28">
+              Buy
+            </li>
+            <li>
+              <img src="tick-inside-circle.png" alt="tick" class="listtick" width="28">
+              Sell
+            </li>
+            <li>
+              <img src="tick-inside-circle.png" alt="tick" class="listtick" width="28">
+              Project Marketing
+            </li>
+            <li>
+              <img src="tick-inside-circle.png" alt="tick" class="listtick" width="28">
+              Land Deals
+            </li>
+            <li>
+              <img src="tick-inside-circle.png" alt="tick" class="listtick" width="28">
+              Commercial Properties
+            </li>
+          </ul>
+          <div id="callaction">
+            <div id="m1">
+              Build Your Dream House!
+            </div>
+            <div id="m2">Contact us now</div>
+            {/*
+            <a href="mailto:vdsmartmarketing@gmail.com">
+              <button class="mybutton" role="button">CONTACT NOW</button>
+            </a>
+          */}
+          </div>
+          <div id="socials">
+            <ul>
+              <li>
+                <img src="telephone.png" alt="phone" width="32">
+                +91 62694-23000
+              </li>
+              <li>
+                <img src="telephone.png" alt="phone" width="32">
+                +91 86860-11000
+              </li>
+
+              <li>
+                <img src="instagram.png" alt="instagram" width="32">
+                vd_smart_marketing
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer></footer>
+    </div>
+	</body>
+</html>
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: #f3f3f3;
+  font-family: sans-serif;
+}
+#logo {
+  width: 3rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+#header-title {
+  background-color: #0d1117;
+  height: fit-content;
+  position: sticky;
+  margin: 0;
+  padding-block: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  img {
+    margin-left: 1rem;
+  }
+}
+#hero {
+  background-image: url('/house_stock_pic.jpg');
+  height: 70vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+  h1 {
+    font-size: 5.75rem;
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+}
+section {
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  .para {
+    font-size: 1.25rem;
+    color: #1a222e;
+    margin-inline: auto;
+    max-width: 70rem;
+    h2 {
+      letter-spacing: 0.125rem;
+      font-weight: 600;
+      font-size: 2.25rem;
+      text-decoration: underline;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+#divider {
+  height: 1px;
+  background-color: gray;
+  opacity: 0.6;
+  width: 90%;
+  margin-block: 5rem;
+  margin-inline: auto;
+  padding: 0;
+}
+footer {
+  background-color: #0d1117;
+  color: white;
+  padding: 3.5rem;
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  div {
+    max-width: 70rem;
+    padding: 1rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+}
+#t1 {
+  padding: 1rem;
+  font-size: 3rem;
+  border: 0.125rem solid black;
+  border-radius: 1rem;
+  width: 60rem;
+  margin-top: 3rem;
+}
+#list1 {
+  font-size: 2rem;
+  border-radius: 1rem;
+  background-color: #ede6e6;
+  width: 60rem;
+  list-style: none;
+  padding-block: 2rem;
+  li {
+    padding: 0.25rem;
+  }
+  .listtick {
+    width: 1.5rem;
+    margin-right: 0.25rem;
+  }
+}
+
+#callaction {
+  text-align: center;
+  #m1 {
+    font-size: 2.5rem;
+  }
+  button {
+    margin-top: 1rem;
+  }
+}
+
+.mybutton {
+  border-radius: 1rem;
+  border: 0.125rem solid black;
+  padding: 1rem;
+  font-size: 1.5rem;
+  transition: 0.1s ease;
+}
+.mybutton:hover {
+  background-color: #0d1117;
+  color: white;
+}
+
+#socials {
+  ul {
+    list-style: none;
+  }
+  li {
+    font-size: 1.5rem;
+    padding-block: 0.75rem;
+    img {
+      width: 1.75rem;
+      padding-right: 0.75rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1026px) {
+  #header-title {
+    font-size: 2rem;
+  }
+  #hero {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+
+  section {
+    .para {
+      #t1 {
+        font-size: 2rem;
+        width: 90%;
+        margin-inline: auto;
+      }
+      h2 {
+        font-size: 1.75rem;
+      }
+    }
+    #list1 {
+      width: 90%;
+      margin-inline: auto;
+      font-size: 1.25rem;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  #logo {
+    width: 2.5rem;
+  }
+  #hero {
+    h1, h2 {
+      padding-left: 1rem;
+    }
+  }
+  #header-title {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  section {
+    .para {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      #t1 {
+        font-size: 1.5rem;
+        width: 86%;
+        margin-inline: auto;
+      }
+      h2 {
+        font-size: 1.75rem;
+      }
+    }
+    #list1 {
+      width: 86%;
+      margin-inline: auto;
+      font-size: 1.25rem;
+    }
+    #callaction {
+      text-align: center;
+      #m1 {
+        font-size: 2rem;
+      }
+      button {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+
+
+</style>
